@@ -1,3 +1,3 @@
 #!/bin/bash
-openssl genrsa -out rootCA.key 4096
-openssl req -x509 -new -nodes -key rootCA.key -days 1024 -out rootCA.pem
+openssl genrsa -out data/rootCA.key 4096
+openssl req -x509 -new -nodes -key data/rootCA.key -days 1024 -out data/rootCA.pem
